@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All Products - MESS store</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html">
+            <img src="images/logo.png" alt="" width="125px"
+          /></a>
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="account.html">Account</a></li>
+            <!-- TODo: 22:20 -->
+          </ul>
+        </nav>
+        <a href="cart.html"
+          ><img src="images/cart.png" alt="" width="30px" height="30px"
+        /></a>
+        <img
+          src="images/menu.png"
+          alt=""
+          class="menu-icon"
+          onclick="menutoggle()"
+        />
+      </div>
+    </div>
+    <div>
+      <h1>Welcome to MESS STORE</h1>  – <br> Ultimate Destination for Cutting-Edge Electronics!
+
+      At MESS STORE, we're not just in the business of selling electronics; we're in the business of enhancing lives through technology. Our journey began with a vision to make the latest gadgets and gizmos accessible to everyone, and we've been dedicated to this mission since our inception.
+      
+      <h3>Who We Are</h3>
+      
+      <br>We are a team of tech enthusiasts and experts who share a common passion for innovation and exceptional customer service. Our founders, started [MESS STORE] with a simple goal in mind: to provide a one-stop-shop for all your electronic needs. Their vision has grown into the thriving business you see today.
+      
+      What Sets Us Apart
+      
+      <h3>What distinguishes us from the rest is our unwavering commitment to quality, diversity, and convenience. We curate a wide selection of products, from smartphones, laptops, and cameras to home appliances and accessories, ensuring that you have the latest and greatest at your fingertips. Our commitment to quality means that we only carry products from reputable brands that meet our stringent standards.</h3>
+      
+      <br>But we don't stop at just providing top-notch products. Our team is passionate about staying up to date with the ever-evolving tech world. We pride ourselves on being a valuable resource for tech advice, reviews, and guidance. Whether you're a seasoned tech guru or just starting to explore the world of electronics, our experts are here to assist you.
+      
+      Our Mission
+      
+      Our mission is simple: we want to make your life better through technology. We believe that technology can enhance your work, leisure, and overall well-being, and we're here to make that happen. With a focus on innovation, we continually strive to bring you the latest and most exciting products, ensuring that you always stay ahead of the curve.
+      
+      Why Choose Us?
+      
+      Extensive Selection: We offer a wide range of products, ensuring you have access to the best gadgets and electronics in the market.
+      
+      Exceptional Customer Service: Our team is dedicated to providing you with the best possible shopping experience. We're here to answer your questions, offer recommendations, and address any concerns.
+      
+      Quality Assurance: We stand by the quality of the products we sell. Every item goes through rigorous testing to ensure it meets our high standards.
+      
+      Tech Expertise: Our team of tech enthusiasts is passionate about what they do, and they're always ready to share their knowledge and insights with you.
+      
+      Fast and Secure Shipping: We offer swift and secure shipping options, so you can enjoy your new gadgets as soon as possible.
+      
+      Join Us on Our Journey
+      
+      As we continue to grow and evolve, we invite you to join us on our exciting journey. Stay connected with us on social media, subscribe to our newsletter, and visit our blog for the latest updates, product releases, and tech insights.
+      
+      At [MESS STORE], we're not just a store; we're your partner in the world of technology. Thank you for choosing us as your destination for all things electronic. We look forward to serving you and helping you discover the amazing world of technology.
+      
+      Feel free to reach out to us with any questions, suggestions, or feedback. Your satisfaction is our top priority!</div>
+
+    
+    <!-- JS for Toggle menu -->
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
+
+      MenuItems.style.maxHeight = "0px";
+
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight = "200px";
+        } else {
+          MenuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>
